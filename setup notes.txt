@@ -1,0 +1,23 @@
+Create new DIR
+open DIR in VS Code
+"npx create-react-app ." to create a react app in the current director (no quotes)
+then
+npm install @mui/material @emotion/react @emotion/styled
+then
+npm install @fontsource/roboto
+then
+npm install @mui/icons-material
+
+
+verify folder structure
+----INCORRECT----
+app
+ |node_modules          <-- some packages installed here
+ |package.json
+node_modules
+package.json            <-- some packages installed here
+
+----CORRECT----
+app
+ |node_modules
+ |package.json          <-- install all the packages at the same heirarchy

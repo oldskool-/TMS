@@ -1,0 +1,43 @@
+{
+  "specification":[
+    {
+    "id": 1,
+    "name": "Setup Volts",
+    "type": "paragraph",
+    "foreign_id": 1
+    },{
+    "id": 2,
+    "name": "Measue Volts",
+    "type": "measurement",
+    "foreign_id": 1
+    }
+  ],
+  "measurements":[
+    {
+      "id": 1,
+      "state_descriptor": "Disabled",
+      "signal_ref": "OP-01",
+      "value": 0,
+      "ul": 0.01,
+      "ll": -0.2,
+      "units": "Volts"
+    },{
+        "id": 2,
+        "state_descriptor": "Enabled",
+        "signal_ref": "OP-01",
+        "value": 5,
+        "ul": 5.1,
+        "ll": 4.9,
+        "units": "Volts"
+      }
+  ],
+  "paragraphs":[
+    {
+      "id": 1,
+      "content":"This is a content the FIRST paragraph of the application"
+    },{
+      "id": 2,
+      "content":"This is a content in the SECOND paragraph of the application"
+    }
+  ]
+}
